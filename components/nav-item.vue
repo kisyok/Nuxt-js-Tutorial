@@ -1,6 +1,8 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark padding">
-    <NuxtLink class="navbar-brand" to="/">Firengii</NuxtLink>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark padding">
+    <NuxtLink class="navbar-brand" to="/">
+      Firengii
+    </NuxtLink>
     <button
       class="navbar-toggler"
       type="button"
@@ -8,21 +10,26 @@
       data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent"
       aria-expanded="false"
-      aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon" />
     </button>
 
-    <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <NuxtLink to="/products" class="nav-link">Products <span class="sr-only">(current)</span></NuxtLink>
-            </li>
-            <li class="nav-item active">
-                <NuxtLink to="/my-items" class="nav-link">My Items <span class="sr-only">(current)</span></NuxtLink>
-            </li>
-        </ul>
+    <div id="navbarSupportedContent" class="collapse navbar-collapse ml-auto">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <NuxtLink to="/products" class="nav-link">
+            Products <span class="sr-only">(current)</span>
+          </NuxtLink>
+        </li>
+        <li class="nav-item active">
+          <NuxtLink to="/my-items" class="nav-link">
+            My Items <span class="sr-only">(current)</span>
+          </NuxtLink>
+        </li>
+      </ul>
     </div>
-    </nav>
+  </nav>
 </template>
 
 <script>

@@ -1,6 +1,8 @@
 <template>
   <div class="container">
-    <h3 class="header">{{ cardSection.title }}</h3>
+    <h3 class="header">
+      {{ cardSection.title }}
+    </h3>
     <div class="card-container">
       <SmallCard
         v-for="card in cardSection.cards"

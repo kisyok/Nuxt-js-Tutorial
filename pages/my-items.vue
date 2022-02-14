@@ -1,12 +1,12 @@
 <template>
-  <h1>
-    my items
-  </h1>
+  <div class="container">
+    g
+  </div>
 </template>
 
 <script>
 export default {
-
+  layout: 'no-nav'
 }
 </script>
 
