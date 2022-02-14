@@ -1,7 +1,7 @@
 <template>
-  <h1>
-    products
-  </h1>
+  <div>
+    h
+  </div>
 </template>
 
 <script>
