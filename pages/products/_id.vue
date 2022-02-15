@@ -7,6 +7,9 @@
         <p class="snippet">
           {{ product.snippet }}
         </p>
+        <rent-modal
+          :product="product"
+        />
       </div>
     </div>
     <div class="whats-included-container">
