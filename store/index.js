@@ -1,4 +1,5 @@
 export const state = () => ({
+  myRentals: [],
   products: [
     {
       id: 1,
@@ -172,7 +173,7 @@ export const state = () => ({
 })
 
 export const mutations = {
-  addItemb (state, id) {
+  addItem (state, id) {
     const item = state.products.find(product => product.id === id)
     state.myRentals.push(item)
   }

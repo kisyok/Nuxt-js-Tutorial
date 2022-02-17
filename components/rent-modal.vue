@@ -18,7 +18,7 @@
       variant="outline-danger"
       block
       @click="() => {
-        addItem(product.id)
+        addItem(parseInt(product.id))
         hideModal()
       }">Order</b-button>
     </b-modal>

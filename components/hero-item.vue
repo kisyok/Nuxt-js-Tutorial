@@ -7,9 +7,11 @@
       <p class="snippet">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!
       </p>
-      <button class="button btn">
-        Start Looking
-      </button>
+      <NuxtLink :to="`/products`">
+        <button class="button btn">
+          Start Looking
+        </button>
+      </NuxtLink>
     </div>
     <img src="../assets/svg/fire-extinguisher.svg" alt="fire extinguisher logo">
   </div>
